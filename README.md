@@ -48,7 +48,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import dsumors from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-dsumors@deno/mod.js';
+import dsumors from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-dsumors@v0.2.2-deno/mod.js';
 ```
 
 #### dsumors( N, x, stride )
@@ -149,7 +149,7 @@ var v = dsumors.ndarray( 4, x, 2, 1 );
 ```javascript
 var discreteUniform = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-discrete-uniform' ).factory;
 import filledarrayBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-filled-by@deno/mod.js';
-import dsumors from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-dsumors@deno/mod.js';
+import dsumors from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-dsumors@v0.2.2-deno/mod.js';
 
 var x = filledarrayBy( 10, 'float64', discreteUniform( 0, 100 ) );
 console.log( x );
