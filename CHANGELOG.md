@@ -4,12 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-04-26)
+## Unreleased (2025-04-30)
 
 <section class="features">
 
 ### Features
 
+-   [`09ffc2c`](https://github.com/stdlib-js/stdlib/commit/09ffc2c08be90669defcaaa19a50b53a6d7473f8) - add `stats/strided/wasm/dmeanors` [(#5832)](https://github.com/stdlib-js/stdlib/pull/5832)
 -   [`a13b924`](https://github.com/stdlib-js/stdlib/commit/a13b924cf236742b407bb6dc137eef194fdfd88f) - add C `ndarray` API and refactor `blas/ext/base/dsumors` [(#4320)](https://github.com/stdlib-js/stdlib/pull/4320)
 
 </section>
@@ -22,6 +23,7 @@
 
 <details>
 
+-   [`09ffc2c`](https://github.com/stdlib-js/stdlib/commit/09ffc2c08be90669defcaaa19a50b53a6d7473f8) - **feat:** add `stats/strided/wasm/dmeanors` [(#5832)](https://github.com/stdlib-js/stdlib/pull/5832) _(by Prashant Kumar Yadav, Athan Reines, stdlib-bot)_
 -   [`9f85b5d`](https://github.com/stdlib-js/stdlib/commit/9f85b5d90cb6fcaf052116cd06aa4a693757f0ec) - **test:** fix description _(by Philipp Burckhardt)_
 -   [`a13b924`](https://github.com/stdlib-js/stdlib/commit/a13b924cf236742b407bb6dc137eef194fdfd88f) - **feat:** add C `ndarray` API and refactor `blas/ext/base/dsumors` [(#4320)](https://github.com/stdlib-js/stdlib/pull/4320) _(by Muhammad Haris, Athan Reines)_
 -   [`62364f6`](https://github.com/stdlib-js/stdlib/commit/62364f62ea823a3b52c2ad25660ecd80c71f8f36) - **style:** fix C comment alignment _(by Philipp Burckhardt)_
@@ -38,11 +40,12 @@
 
 ### Contributors
 
-A total of 3 people contributed to this release. Thank you to the following contributors:
+A total of 4 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
 -   Muhammad Haris
 -   Philipp Burckhardt
+-   Prashant Kumar Yadav
 
 </section>
 
