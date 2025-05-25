@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-04-30)
+## Unreleased (2025-05-25)
 
 <section class="features">
 
@@ -17,12 +17,25 @@
 
 <!-- /.features -->
 
+<section class="bug-fixes">
+
+### Bug Fixes
+
+-   [`549f1c1`](https://github.com/stdlib-js/stdlib/commit/549f1c1889b0d324eab00a142121ef26ed080592) - address indexing bug
+-   [`e20b7f5`](https://github.com/stdlib-js/stdlib/commit/e20b7f533ddf8cbc27f142011a8ed65d3229e380) - update implementation to preserve signed zeros
+
+</section>
+
+<!-- /.bug-fixes -->
+
 <section class="commits">
 
 ### Commits
 
 <details>
 
+-   [`549f1c1`](https://github.com/stdlib-js/stdlib/commit/549f1c1889b0d324eab00a142121ef26ed080592) - **fix:** address indexing bug _(by Athan Reines)_
+-   [`e20b7f5`](https://github.com/stdlib-js/stdlib/commit/e20b7f533ddf8cbc27f142011a8ed65d3229e380) - **fix:** update implementation to preserve signed zeros _(by Athan Reines)_
 -   [`fbb364e`](https://github.com/stdlib-js/stdlib/commit/fbb364ea4aac82c08e986f6dfe78825af7cd6cfa) - **build:** update configuration _(by Athan Reines)_
 -   [`09ffc2c`](https://github.com/stdlib-js/stdlib/commit/09ffc2c08be90669defcaaa19a50b53a6d7473f8) - **feat:** add `stats/strided/wasm/dmeanors` [(#5832)](https://github.com/stdlib-js/stdlib/pull/5832) _(by Prashant Kumar Yadav, Athan Reines, stdlib-bot)_
 -   [`9f85b5d`](https://github.com/stdlib-js/stdlib/commit/9f85b5d90cb6fcaf052116cd06aa4a693757f0ec) - **test:** fix description _(by Philipp Burckhardt)_
