@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-06-30)
+## Unreleased (2025-12-09)
 
 <section class="features">
 
@@ -34,6 +34,7 @@
 
 <details>
 
+-   [`bbf53c0`](https://github.com/stdlib-js/stdlib/commit/bbf53c047e169d847b3f25f9fb7967d4e69bb70d) - **bench:** refactor to use dynamic memory allocation in `blas/ext/base/dsumors` [(#8910)](https://github.com/stdlib-js/stdlib/pull/8910) _(by Krishna Awasthi)_
 -   [`549f1c1`](https://github.com/stdlib-js/stdlib/commit/549f1c1889b0d324eab00a142121ef26ed080592) - **fix:** address indexing bug _(by Athan Reines)_
 -   [`e20b7f5`](https://github.com/stdlib-js/stdlib/commit/e20b7f533ddf8cbc27f142011a8ed65d3229e380) - **fix:** update implementation to preserve signed zeros _(by Athan Reines)_
 -   [`fbb364e`](https://github.com/stdlib-js/stdlib/commit/fbb364ea4aac82c08e986f6dfe78825af7cd6cfa) - **build:** update configuration _(by Athan Reines)_
@@ -54,9 +55,10 @@
 
 ### Contributors
 
-A total of 4 people contributed to this release. Thank you to the following contributors:
+A total of 5 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
+-   Krishna Awasthi
 -   Muhammad Haris
 -   Philipp Burckhardt
 -   Prashant Kumar Yadav
