@@ -48,7 +48,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import dsumors from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-dsumors@esm/index.mjs';
+import dsumors from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-dsumors@v0.3.1-esm/index.mjs';
 ```
 
 #### dsumors( N, x, strideX )
@@ -151,7 +151,7 @@ var v = dsumors.ndarray( 4, x, 2, 1 );
 <script type="module">
 
 import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-discrete-uniform@esm/index.mjs';
-import dsumors from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-dsumors@esm/index.mjs';
+import dsumors from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-dsumors@v0.3.1-esm/index.mjs';
 
 var x = discreteUniform( 10, -100, 100, {
     'dtype': 'float64'
